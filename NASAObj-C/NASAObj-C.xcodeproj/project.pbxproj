@@ -13,6 +13,7 @@
 		FCBE1205234EEA2500781B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBE1204234EEA2500781B10 /* Assets.xcassets */; };
 		FCBE1208234EEA2500781B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBE1206234EEA2500781B10 /* LaunchScreen.storyboard */; };
 		FCBE120B234EEA2500781B10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE120A234EEA2500781B10 /* main.m */; };
+		FCBE1217234EEE8E00781B10 /* BBAPOD.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE1216234EEE8D00781B10 /* BBAPOD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FCBE1207234EEA2500781B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCBE1209234EEA2500781B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCBE120A234EEA2500781B10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCBE1215234EEE8D00781B10 /* BBAPOD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAPOD.h; sourceTree = "<group>"; };
+		FCBE1216234EEE8D00781B10 /* BBAPOD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAPOD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		FCBE1213234EEA5A00781B10 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FCBE1219234EF1F800781B10 /* Model Controllers */,
+				FCBE1218234EF1F200781B10 /* View Controllers */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -99,8 +104,24 @@
 		FCBE1214234EEA5F00781B10 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FCBE1215234EEE8D00781B10 /* BBAPOD.h */,
+				FCBE1216234EEE8D00781B10 /* BBAPOD.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		FCBE1218234EF1F200781B10 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FCBE1219234EF1F800781B10 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +150,7 @@
 		FCBE11ED234EEA2000781B10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BB;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Bethany Wride";
 				TargetAttributes = {
@@ -176,6 +198,7 @@
 				FCBE11FA234EEA2000781B10 /* AppDelegate.m in Sources */,
 				FCBE120B234EEA2500781B10 /* main.m in Sources */,
 				FCBE11FD234EEA2000781B10 /* SceneDelegate.m in Sources */,
+				FCBE1217234EEE8E00781B10 /* BBAPOD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
